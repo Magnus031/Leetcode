@@ -4,6 +4,8 @@ int lengthOfLongestSubstring(char* s){
     int length = strlen(s);
     int start=0;//put two points as the start/end of the substring;
     int count=1,num=1;
+    if(length==0)
+        return 0;
     for(start=0;start<length-1;start++){
         int end = start+1;
         while(end<length){
