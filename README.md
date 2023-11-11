@@ -12,5 +12,7 @@ T4 返回两个正序数组的中位数
 
 ### Real-time Update for DataStructure
 #### 1. Hash
+*   Design a Hash
+*   Design a HashMap
 #### 2. Linked List
 #### 3. Queue
