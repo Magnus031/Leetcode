@@ -1,5 +1,5 @@
-#<center>HashMap</center>
-> ####Actually, it is a mapping from key to value.
+# <center>HashMap</center>
+>#### Actually, it is a mapping from key to value.
 
 ### Define a structure object;
 ```c
