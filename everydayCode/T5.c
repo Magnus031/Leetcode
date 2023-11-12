@@ -38,3 +38,31 @@ char* longestPalindrome(char *s) {
     p[count] = '\0';
     return p;
 }
+
+//Here is a O(N^2) algorithm Simply description:
+//It is a way for Center expansion
+
+char* longestPalindrome(char *s) {
+    int N = strlen(s);
+    int start=0;
+    int length=1;//represents the max length of the substring.
+    for(int i=0;i<N;i++){
+        int left=i;
+        int right=i;
+        while(right<N&&s[right]==s[right+1])
+            right++;
+        while(left>0&&s[left-1]==s[right+1]){
+            left--;
+            right++;
+        }
+        if(right-left+1>length){
+            start=left;
+            length=right-left+1;
+        }
+    }
+    char *p = (char *)malloc(sizeof(char) * (length + 1));
+    strncpy(p, s + start, length);
+    p[length] = '\0';
+    return p;
+}
+
