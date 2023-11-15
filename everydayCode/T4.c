@@ -1,3 +1,16 @@
+//Find the median sorted Arrays
+/*
+示例 1：
+
+输入：nums1 = [1,3], nums2 = [2]
+输出：2.00000
+解释：合并数组 = [1,2,3] ，中位数 2
+示例 2：
+
+输入：nums1 = [1,2], nums2 = [3,4]
+输出：2.50000
+解释：合并数组 = [1,2,3,4] ，中位数 (2 + 3) / 2 = 2.5
+*/
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {
     int m=(nums1Size+nums2Size)%2;//m==1 represents we only need to get the middle number;
     int a[2001]={0};

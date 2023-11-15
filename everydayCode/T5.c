@@ -1,3 +1,12 @@
+//Find the longest Palindrome substring.
+/*
+Input1:s = "babad"
+Output1:"bab"
+
+Input2:s = "cbbd"
+Output2:"bb"
+
+*/
 //This is a O(N^3) time complexity algorithm.
 int check(char *a){
     //To check if it is a Palindrome substring;
