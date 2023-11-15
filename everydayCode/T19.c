@@ -12,7 +12,7 @@
 
 输入：head = [1,2], n = 1
 输出：[1]*/
-
+#include <stddef.h>
 struct ListNode {
      int val;
      struct ListNode *next;
