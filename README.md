@@ -17,6 +17,11 @@ $O(N^3)$的时间复杂度：<font color=red>暴力求解</font>
 $O(N^2)$的时间复杂度：<font color=red>滑块（中心拓展法）</font>   
 
 T6 按照N字型输出字符串
+
+T19删除第k个节点
+
+T22合并两个有序列表
+
 ### Real-time Update for DataStructure
 #### 1. Hash
 *   Design a Hash
