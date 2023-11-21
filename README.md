@@ -38,7 +38,7 @@ T217出现重复元素
 *   HashMap
     *   Design a HashMap
 *   Hash Application(not map)
-    *   appearone
+    *   Appearone
     *   Findtherepeated Element
     *   Intersection
     *   HappyNumber
