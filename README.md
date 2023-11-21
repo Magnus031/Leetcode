@@ -29,9 +29,12 @@ T61旋转链表
 T141环形链表 判断是否有环
 
 T142环形链表 寻找链表环的起始位置
+
+T217出现重复元素
 ### Real-time Update for DataStructure
 #### 1. Hash
 *   Design a Hash
 *   Design a HashMap
+*   T217
 #### 2. Linked List
 #### 3. Queue
