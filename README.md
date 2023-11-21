@@ -33,8 +33,14 @@ T142环形链表 寻找链表环的起始位置
 T217出现重复元素
 ### Real-time Update for DataStructure
 #### 1. Hash
-*   Design a Hash
-*   Design a HashMap
-*   T217
+*   Hashbegin
+    *   Design a Hash
+*   HashMap
+    *   Design a HashMap
+*   Hash Application(not map)
+    *   appearone
+    *   Findtherepeated Element
+    *   Intersection
+    *   HappyNumber
 #### 2. Linked List
 #### 3. Queue
