@@ -1,3 +1,4 @@
+#include<stddef.h>
 int Find(int S[],int x){
     if(S[x]<0)
         return x;
